@@ -1,0 +1,524 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+}
+
+h3 {
+  color: #f49800;
+  font-size: 2.5rem;
+  font-family: "Teko", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+.h3 {
+  color: #f49800;
+  font-size: 2.5rem;
+  font-family: "Teko", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+.kortinfo {
+  display: flex;
+  background-color: #595451;
+  justify-content: space-around;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.kortinfo p {
+  color: #fff;
+  font-size: 0.875em;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  line-height: 0.001;
+}
+
+nav {
+  width: 100vw;
+}
+
+.navbar2 {
+  width: 100vw;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  margin: 20px;
+}
+
+li a {
+  font-family: "Teko", sans-serif;
+  font-size: 23px;
+  color: white;
+  text-decoration: none;
+}
+
+li a:hover {
+  color: #f49800;
+  text-decoration: underline;
+}
+
+.navbar2 {
+  color: #585552;
+  text-decoration: none;
+}
+
+.navbar2 li a {
+  font-family: "Teko", sans-serif;
+  font-size: 30px;
+}
+
+li img {
+  width: 170px;
+  padding-right: 0vw;
+}
+
+.bar1 {
+  display: flex;
+  background-color: #595451;
+  margin: 0;
+  width: 100%;
+}
+
+.bar1 li a {
+  display: inline-block;
+  float: right;
+}
+
+.bar2 {
+  display: flex;
+  margin: 0;
+  width: 100%;
+}
+
+.bar2 a {
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.94rem;
+  color: #595451;
+}
+
+p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.94rem;
+}
+
+button img {
+  width: 30px;
+}
+
+h1 {
+  font-size: 5rem;
+  font-family: "Teko", sans-serif;
+  color: #f49800;
+  line-height: 1;
+  margin-bottom: 0;
+}
+
+header {
+  width: 100vw;
+  background-image: url("./images/headerbillede.jpeg");
+  background-position: center;
+  background-size: 100%;
+  margin: 0;
+}
+
+header p {
+  width: 50%;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+}
+
+.overlay {
+  background-image: url("./images/overlay2.png");
+  background-size: 100%;
+  padding: 10vw;
+  padding-top: 1vw;
+}
+
+button {
+  color: #595451;
+  background-color: #f49800;
+  border: none;
+  font-size: 33px;
+  font-family: "Teko", sans-serif;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  padding-left: 40px;
+  padding-right: 40px;
+  margin-right: 50px;
+  cursor: pointer;
+}
+
+button:hover {
+  font-size: 35px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  padding-left: 36px;
+  padding-right: 36px;
+  background-color: #fff;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #f49800;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+form {
+  background: #fff;
+  width: 600px;
+  height: 55px;
+  display: flex;
+  border: #585552;
+  border: 10px;
+  margin-left: 50vh; /* moves the search bar to the right */
+}
+
+form input {
+  flex: 1;
+  outline: none;
+}
+
+form button {
+  background: #c57a00;
+  padding: 0px 50px;
+  outline: none;
+  color: #fff;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+
+form button:hover {
+  color: #595451;
+  padding: 0px 50px;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+
+.videoboks {
+  display: flex;
+  /*flex-wrap: wrap;*/
+  padding: 3vw;
+}
+
+.video {
+  /*margin: 2vw;*/
+  width: 70%;
+}
+
+.susannesboks img {
+  width: 20%;
+}
+
+.susannescontainer {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.susannesboks {
+  background-color: #585552;
+  padding: 2vw;
+  margin: 2vw;
+  margin-top: 0;
+  /*width: 650px;*/
+  width: 55%;
+  /*height: 366px;*/
+  /*float:right;*/
+  text-align: center;
+  margin-left: 25%;
+  color: #fff;
+}
+
+.studieliv {
+  width: 65%;
+  margin-left: 25%;
+  /*float:right;*/
+}
+
+.studievejledning {
+  width: 65%;
+  margin-left: 25%;
+  margin-top: 2vw;
+}
+
+label[for="search"] {
+  visibility: hidden;
+}
+
+.dropdown-container {
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+}
+
+.dropdown {
+  display: flex;
+  background-color: #595451;
+}
+
+.dropdown-content {
+  display: flex;
+}
+
+.grey {
+  background-color: #595451;
+  color: #fff;
+  padding-bottom: 2%;
+  padding-top: 1%;
+}
+
+.grey h2 {
+  color: #f49800;
+}
+
+.citat {
+  display: flex;
+  background-image: url(./images/studerende2.jpeg);
+  background-position: center;
+  background-size: 100%;
+  padding: 3vw;
+  margin-top: 2vw;
+  margin-bottom: 2vw;
+}
+
+.citatboks {
+  background-color: #fff;
+  padding: 3vw;
+  margin: 2vw;
+}
+
+.citatboks h3 {
+  color: #c57a00;
+}
+
+blockquote {
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.94rem;
+}
+
+cite {
+  font-family: "Montserrat", sans-serif;
+}
+
+.studerende {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 1%;
+}
+
+.studerendeflex {
+  background-color: #595451;
+}
+
+.studerendeflex h3 {
+  padding-left: 0.5vw;
+}
+
+.studerendeflex img {
+  width: 25vw;
+}
+
+footer {
+  background-color: #595451;
+  height: 20vw;
+  padding-left: 2vw;
+  padding-top: 0.5vw;
+}
+
+footer h2 {
+  color: #f49800;
+}
+h2 {
+  font-family: "Teko", sans-serif;
+  font-size: 2rem;
+  color: #c57a00;
+  padding-left: 2vw;
+}
+
+.blocks p {
+  padding: 2vw;
+  padding-top: 0;
+}
+
+.artikellink {
+  display: flex;
+  margin: 0 auto;
+  margin-top: 2%;
+  margin-left: 3%;
+  width: 35%;
+  min-width: fit-content;
+  margin-bottom: 1vw;
+}
+
+.uparrow {
+  margin-left: 95%;
+  max-height: 40px;
+}
+
+/*media queries - vi går efter mobil størrelse 375 x 812 (iphone X, XS og 11 pro) 
+vi blev ikke helt færdige desværre*/
+
+@media only screen and (max-width: 376px) {
+  nav {
+    background-color: #595451;
+  }
+
+  ul {
+    margin: 0;
+    padding: 1vw;
+  }
+  li {
+    padding: 1vw;
+    margin: 0;
+  }
+  li a {
+    font-size: 18px;
+  }
+
+  li img {
+    width: 50px;
+    padding: 0;
+  }
+
+  .navbar2 li a {
+    font-size: 20px;
+  }
+
+  .bar2 {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .break {
+    flex-basis: 100%;
+    height: 0;
+  }
+
+  label[for="search"] {
+    display: none;
+  }
+
+  form {
+    margin: 0;
+    padding: 0;
+    width: 90vw;
+  }
+
+  h1 {
+    font-size: 3em;
+  }
+
+  header {
+    background-size: cover;
+  }
+
+  .overlay {
+    background-size: cover;
+  }
+  header p {
+    font-size: 1em;
+    width: 80%;
+  }
+
+  .breadcrumbs {
+    font-size: 0.7em;
+  }
+
+  button {
+    color: #595451;
+    background-color: #f49800;
+    border: none;
+    font-size: 22px;
+    font-family: "Teko", sans-serif;
+    padding: 3vw;
+    margin: 1vw;
+    cursor: pointer;
+  }
+
+  button:hover {
+    font-size: 22px;
+    padding: 2.5vw;
+    margin: 1vw;
+    background-color: #fff;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #f49800;
+  }
+
+  .h3 {
+    font-size: 2em;
+    margin: auto;
+    text-align: center;
+  }
+
+  .kortinfo div {
+    margin: auto;
+    text-align: center;
+  }
+
+  .videoboks {
+    display: block;
+    width: 100%;
+    padding: 0;
+  }
+
+  .video {
+    width: 100%;
+  }
+
+  .susannescontainer {
+    width: 100%;
+    margin: 0;
+  }
+
+  .susannesboks {
+    margin: 0;
+    width: 100%;
+  }
+
+  .susannescontainer img {
+    width: 50%;
+  }
+
+  .studieliv {
+    width: 100%;
+    margin: auto;
+  }
+
+  .studievejledning {
+    width: 100%;
+    margin: auto;
+    margin-top: 1vw;
+  }
+
+  .dropdown-content {
+    display: block;
+  }
+
+  .uparrow {
+    margin-left: 80%;
+  }
+
+  .citat {
+    flex-direction: column;
+  }
+
+  h3 {
+    font-size: 2em;
+  }
+}
